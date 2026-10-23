@@ -1,4 +1,4 @@
-const BASE = `${import.meta.env.VITE_API_URL || ''}/api`;
+const BASE = `${import.meta.env.VITE_API_BASE_URL || ''}/api`;
 
 /** Tiny fetch wrapper: JSON in/out, throws Error(message) on non-2xx. */
 export async function api(path, opts = {}) {
