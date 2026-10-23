@@ -18,6 +18,7 @@ app.use((err, _q, s, _n) => {
   s.status(err.status || 500).json({ error: err.status ? err.message : 'Server error' });
 });
 
-await mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/biscuitpups');
+const uri = process.env.MONGODB_URI || process.env.MONGO_URI;
+mongoose.connect(uri);
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`API ready on :${PORT}`));
