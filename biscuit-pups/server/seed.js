@@ -5,7 +5,7 @@ import { Puppy, Family, Faq, Testimonial, Image } from './models.js';
 import { pushImage } from './lib/images.js';
 
 const data = JSON.parse(await readFile(new URL('./data/seed.json', import.meta.url)));
-await mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/biscuitpups');
+await mongoose.connect(process.env.MONGODB_URI);
 await Promise.all([Puppy.deleteMany(), Family.deleteMany(), Image.deleteMany({ isDefault: true }), Faq.deleteMany(), Testimonial.deleteMany()]);
 await Promise.all([
   Puppy.insertMany(data.puppies), Family.insertMany(data.families),
