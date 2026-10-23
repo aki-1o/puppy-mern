@@ -1,0 +1,15 @@
+{
+  "_note": "Default photos. 'url' can be any picsum.photos form (random, /seed/x, /id/N, ?grayscale). Random URLs are pinned to the image they return at seed time. Sizes in the URL are ignored: the site picks sizes that fit each spot. 'assign' is puppy:<slug> or family:<order>.",
+  "images": [
+    { "url": "https://picsum.photos/seed/puppy/400/300",      "assign": "puppy:max" },
+    { "url": "https://picsum.photos/200/300",                 "assign": "puppy:mochi" },
+    { "url": "https://picsum.photos/400/300?grayscale",       "assign": "puppy:cocoa" },
+    { "url": "https://picsum.photos/seed/biscuit/400/300",    "assign": "puppy:biscuit-and-pip" },
+    { "url": "https://picsum.photos/seed/honey/400/300",      "assign": "puppy:honey" },
+    { "url": "https://picsum.photos/seed/puff/400/300",       "assign": "puppy:puff" },
+    { "url": "https://picsum.photos/seed/family-one/400/300", "assign": "family:0" },
+    { "url": "https://picsum.photos/seed/family-two/400/300?grayscale", "assign": "family:1" },
+    { "url": "https://picsum.photos/seed/family-three/400/300", "assign": "family:2" },
+    { "url": "https://picsum.photos/300/300",                 "assign": "family:3" }
+  ]
+}

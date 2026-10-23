@@ -1,0 +1,573 @@
+{
+ "puppies": [
+  {
+   "slug": "max",
+   "name": "Max",
+   "breeds": [
+    "maltipoo"
+   ],
+   "gender": "boy",
+   "ageLabel": "3 months",
+   "ageMonths": 3,
+   "hasVideo": true,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of Max",
+   "fur": "#ecd0a0",
+   "ear": "#d2a96a",
+   "muzzle": "#fff3dc",
+   "bg": "#fbe3b4",
+   "ears": "floppy",
+   "order": 0
+  },
+  {
+   "slug": "mochi",
+   "name": "Mochi",
+   "breeds": [
+    "maltipoo",
+    "poodle"
+   ],
+   "gender": "girl",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": true,
+   "origin": "imported",
+   "status": "available",
+   "alt": "Illustration of Mochi",
+   "fur": "#f7f1e6",
+   "ear": "#e4d6bf",
+   "muzzle": "#ffffff",
+   "bg": "#cfe6f5",
+   "ears": "floppy",
+   "order": 1
+  },
+  {
+   "slug": "cocoa",
+   "name": "Cocoa",
+   "breeds": [
+    "poodle"
+   ],
+   "gender": "girl",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": false,
+   "origin": "imported",
+   "status": "available",
+   "alt": "Illustration of Cocoa",
+   "fur": "#9a5b3a",
+   "ear": "#6e3b22",
+   "muzzle": "#f3dcc0",
+   "bg": "#f9cfc2",
+   "ears": "floppy",
+   "order": 2
+  },
+  {
+   "slug": "biscuit-and-pip",
+   "name": "Biscuit & Pip",
+   "breeds": [
+    "maltipoo",
+    "cavapoo"
+   ],
+   "gender": "boy",
+   "ageLabel": "3 months Maltipoo & 2 months Cavapoo",
+   "ageMonths": 3,
+   "hasVideo": true,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of Biscuit & Pip",
+   "fur": "#e8b878",
+   "ear": "#c98f4f",
+   "muzzle": "#fff0d6",
+   "bg": "#d3ecc6",
+   "ears": "floppy",
+   "order": 3
+  },
+  {
+   "slug": "twin-toys",
+   "name": "The Toy Twins",
+   "breeds": [
+    "poodle"
+   ],
+   "gender": "both",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of The Toy Twins",
+   "fur": "#b25a30",
+   "ear": "#8a3f1b",
+   "muzzle": "#f5d9b8",
+   "bg": "#e3d6f3",
+   "ears": "floppy",
+   "order": 4
+  },
+  {
+   "slug": "honey",
+   "name": "Honey",
+   "breeds": [
+    "maltipoo"
+   ],
+   "gender": "girl",
+   "ageLabel": "3 months",
+   "ageMonths": 3,
+   "hasVideo": true,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of Honey",
+   "fur": "#e8b878",
+   "ear": "#c98f4f",
+   "muzzle": "#fff0d6",
+   "bg": "#fbe3b4",
+   "ears": "floppy",
+   "order": 5
+  },
+  {
+   "slug": "puff",
+   "name": "Puff",
+   "breeds": [
+    "pomeranian"
+   ],
+   "gender": "girl",
+   "ageLabel": "3 months",
+   "ageMonths": 3,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of Puff",
+   "fur": "#f7f1e6",
+   "ear": "#e4d6bf",
+   "muzzle": "#ffffff",
+   "bg": "#cfe6f5",
+   "ears": "perky",
+   "patch": "#2a170e",
+   "order": 6
+  },
+  {
+   "slug": "copper",
+   "name": "Copper",
+   "breeds": [
+    "cavapoo"
+   ],
+   "gender": "boy",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of Copper",
+   "fur": "#b25a30",
+   "ear": "#8a3f1b",
+   "muzzle": "#f5d9b8",
+   "bg": "#f9cfc2",
+   "ears": "floppy",
+   "order": 7
+  },
+  {
+   "slug": "daisy",
+   "name": "Daisy",
+   "breeds": [
+    "shih-tzu"
+   ],
+   "gender": "girl",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of Daisy",
+   "fur": "#f7f1e6",
+   "ear": "#e4d6bf",
+   "muzzle": "#ffffff",
+   "bg": "#d3ecc6",
+   "ears": "floppy",
+   "patch": "#3a2a22",
+   "order": 8
+  },
+  {
+   "slug": "domino",
+   "name": "Domino",
+   "breeds": [
+    "shih-tzu"
+   ],
+   "gender": "boy",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of Domino",
+   "fur": "#f7f1e6",
+   "ear": "#e4d6bf",
+   "muzzle": "#ffffff",
+   "bg": "#e3d6f3",
+   "ears": "floppy",
+   "patch": "#2a2420",
+   "order": 9
+  },
+  {
+   "slug": "waffles",
+   "name": "Waffles",
+   "breeds": [
+    "maltipoo"
+   ],
+   "gender": "girl",
+   "ageLabel": "2.5 months",
+   "ageMonths": 2.5,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of Waffles",
+   "fur": "#ecd0a0",
+   "ear": "#d2a96a",
+   "muzzle": "#fff3dc",
+   "bg": "#fbe3b4",
+   "ears": "floppy",
+   "order": 10
+  },
+  {
+   "slug": "nutmeg",
+   "name": "Nutmeg",
+   "breeds": [
+    "maltipoo"
+   ],
+   "gender": "girl",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "available",
+   "alt": "Illustration of Nutmeg",
+   "fur": "#e8b878",
+   "ear": "#c98f4f",
+   "muzzle": "#fff0d6",
+   "bg": "#cfe6f5",
+   "ears": "floppy",
+   "order": 11
+  },
+  {
+   "slug": "ember",
+   "name": "Ember",
+   "breeds": [
+    "pomeranian"
+   ],
+   "gender": "girl",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": false,
+   "origin": "imported",
+   "status": "available",
+   "alt": "Illustration of Ember",
+   "fur": "#e0873a",
+   "ear": "#b8651f",
+   "muzzle": "#fff1dc",
+   "bg": "#f9cfc2",
+   "ears": "perky",
+   "order": 12
+  },
+  {
+   "slug": "pumpkin",
+   "name": "Pumpkin",
+   "breeds": [
+    "pomeranian"
+   ],
+   "gender": "girl",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": false,
+   "origin": "imported",
+   "status": "available",
+   "alt": "Illustration of Pumpkin",
+   "fur": "#e0873a",
+   "ear": "#b8651f",
+   "muzzle": "#fff1dc",
+   "bg": "#d3ecc6",
+   "ears": "perky",
+   "order": 13
+  },
+  {
+   "slug": "rusty",
+   "name": "Rusty",
+   "breeds": [
+    "pomeranian"
+   ],
+   "gender": "boy",
+   "ageLabel": "2 months",
+   "ageMonths": 2,
+   "hasVideo": false,
+   "origin": "imported",
+   "status": "available",
+   "alt": "Illustration of Rusty",
+   "fur": "#b25a30",
+   "ear": "#8a3f1b",
+   "muzzle": "#f5d9b8",
+   "bg": "#e3d6f3",
+   "ears": "perky",
+   "order": 14
+  },
+  {
+   "slug": "nico",
+   "name": "Nico",
+   "breeds": [
+    "pomeranian"
+   ],
+   "gender": "boy",
+   "ageLabel": "found a family",
+   "ageMonths": 3,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "gone-home",
+   "alt": "Illustration of Nico",
+   "fur": "#f7f1e6",
+   "ear": "#e4d6bf",
+   "muzzle": "#ffffff",
+   "bg": "#fbe3b4",
+   "ears": "perky",
+   "order": 15
+  },
+  {
+   "slug": "pepper",
+   "name": "Pepper",
+   "breeds": [
+    "poodle"
+   ],
+   "gender": "boy",
+   "ageLabel": "found a family",
+   "ageMonths": 3,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "gone-home",
+   "alt": "Illustration of Pepper",
+   "fur": "#9a5b3a",
+   "ear": "#6e3b22",
+   "muzzle": "#f3dcc0",
+   "bg": "#cfe6f5",
+   "ears": "floppy",
+   "order": 16
+  },
+  {
+   "slug": "luna",
+   "name": "Luna",
+   "breeds": [
+    "maltipoo"
+   ],
+   "gender": "girl",
+   "ageLabel": "found a family",
+   "ageMonths": 3,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "gone-home",
+   "alt": "Illustration of Luna",
+   "fur": "#ecd0a0",
+   "ear": "#d2a96a",
+   "muzzle": "#fff3dc",
+   "bg": "#f9cfc2",
+   "ears": "floppy",
+   "order": 17
+  },
+  {
+   "slug": "ziggy",
+   "name": "Ziggy",
+   "breeds": [
+    "maltipoo"
+   ],
+   "gender": "boy",
+   "ageLabel": "found a family",
+   "ageMonths": 3,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "gone-home",
+   "alt": "Illustration of Ziggy",
+   "fur": "#e8b878",
+   "ear": "#c98f4f",
+   "muzzle": "#fff0d6",
+   "bg": "#d3ecc6",
+   "ears": "floppy",
+   "order": 18
+  },
+  {
+   "slug": "olive",
+   "name": "Olive",
+   "breeds": [
+    "pomeranian"
+   ],
+   "gender": "girl",
+   "ageLabel": "found a family",
+   "ageMonths": 3,
+   "hasVideo": false,
+   "origin": "local",
+   "status": "gone-home",
+   "alt": "Illustration of Olive",
+   "fur": "#f7f1e6",
+   "ear": "#c9a9a0",
+   "muzzle": "#ffffff",
+   "bg": "#e3d6f3",
+   "ears": "perky",
+   "order": 19
+  }
+ ],
+ "families": [
+  {
+   "caption": "First cuddle 🧸",
+   "fur": "#ecd0a0",
+   "ear": "#d2a96a",
+   "muzzle": "#fff3dc",
+   "bg": "#fbe3b4",
+   "ears": "floppy",
+   "order": 0
+  },
+  {
+   "caption": "Our new teddy puppy 🥰",
+   "fur": "#e8b878",
+   "ear": "#c98f4f",
+   "muzzle": "#fff0d6",
+   "bg": "#cfe6f5",
+   "ears": "floppy",
+   "order": 1
+  },
+  {
+   "caption": "Gang of three 😍",
+   "fur": "#f7f1e6",
+   "ear": "#e4d6bf",
+   "muzzle": "#ffffff",
+   "bg": "#f9cfc2",
+   "ears": "floppy",
+   "order": 2
+  },
+  {
+   "caption": "So happy 😍😍",
+   "fur": "#9a5b3a",
+   "ear": "#6e3b22",
+   "muzzle": "#f3dcc0",
+   "bg": "#d3ecc6",
+   "ears": "perky",
+   "order": 3
+  },
+  {
+   "caption": "Home, at last 🏡",
+   "fur": "#e0873a",
+   "ear": "#b8651f",
+   "muzzle": "#fff1dc",
+   "bg": "#e3d6f3",
+   "ears": "floppy",
+   "order": 4
+  },
+  {
+   "caption": "Best day ever ❤️",
+   "fur": "#b25a30",
+   "ear": "#8a3f1b",
+   "muzzle": "#f5d9b8",
+   "bg": "#fbe3b4",
+   "ears": "floppy",
+   "order": 5
+  },
+  {
+   "caption": "New pup, new mum 🤗",
+   "fur": "#ecd0a0",
+   "ear": "#d2a96a",
+   "muzzle": "#fff3dc",
+   "bg": "#cfe6f5",
+   "ears": "floppy",
+   "order": 6
+  },
+  {
+   "caption": "Family of four, now five 💫",
+   "fur": "#e8b878",
+   "ear": "#c98f4f",
+   "muzzle": "#fff0d6",
+   "bg": "#f9cfc2",
+   "ears": "floppy",
+   "order": 7
+  },
+  {
+   "caption": "Sunday snuggles 🐾",
+   "fur": "#f7f1e6",
+   "ear": "#e4d6bf",
+   "muzzle": "#ffffff",
+   "bg": "#d3ecc6",
+   "ears": "perky",
+   "order": 8
+  },
+  {
+   "caption": "Tiny and perfect 🧸",
+   "fur": "#9a5b3a",
+   "ear": "#6e3b22",
+   "muzzle": "#f3dcc0",
+   "bg": "#e3d6f3",
+   "ears": "floppy",
+   "order": 9
+  },
+  {
+   "caption": "Welcome home, little one",
+   "fur": "#e0873a",
+   "ear": "#b8651f",
+   "muzzle": "#fff1dc",
+   "bg": "#fbe3b4",
+   "ears": "floppy",
+   "order": 10
+  },
+  {
+   "caption": "Meet our boy ❤️",
+   "fur": "#b25a30",
+   "ear": "#8a3f1b",
+   "muzzle": "#f5d9b8",
+   "bg": "#cfe6f5",
+   "ears": "floppy",
+   "order": 11
+  }
+ ],
+ "faqs": [
+  {
+   "question": "Are your puppies vaccinated and health-checked?",
+   "answer": "Yes. Every puppy comes with a health certificate from a licensed vet. They are vaccinated, dewormed and thoroughly checked before joining your family.",
+   "order": 0
+  },
+  {
+   "question": "Can I meet a puppy before I decide?",
+   "answer": "Yes. Come and meet our local puppies in the showroom and spend time bonding before you make up your mind.",
+   "order": 1
+  },
+  {
+   "question": "Can I take my puppy home the same day?",
+   "answer": "Local puppies are ready right away, so you can take your puppy home the same day.",
+   "order": 2
+  },
+  {
+   "question": "Do you import puppies from abroad?",
+   "answer": "Yes. With our order-on-request service we source rare and premium teacup breeds from certified breeders overseas, and we handle the import for you.",
+   "order": 3
+  },
+  {
+   "question": "How does an imported puppy travel?",
+   "answer": "We manage the whole journey: health checks, travel arrangements and paperwork, so your puppy arrives happy, healthy and calm.",
+   "order": 4
+  },
+  {
+   "question": "Will I see photos and health details first?",
+   "answer": "Yes. Photos, videos and health certificates are shared before your puppy travels, and our team sends everything directly in chat.",
+   "order": 5
+  },
+  {
+   "question": "Do you deliver?",
+   "answer": "Yes. We deliver nearby to your door, and our trusted cargo partners can deliver puppies safely to homes all around the world.",
+   "order": 6
+  },
+  {
+   "question": "Which breeds do you usually have?",
+   "answer": "We regularly have Maltipoo, Pomeranian, Poodle, Cavapoo and Shih Tzu, plus rare teacup lines on request.",
+   "order": 7
+  },
+  {
+   "question": "Is there help after my puppy comes home?",
+   "answer": "Yes. Our team is on hand 24/7 with advice on training, nutrition and general care to make the transition smooth.",
+   "order": 8
+  }
+ ],
+ "testimonials": [
+  {
+   "quote": "Our puppy arrived healthy, cheerful and perfectly settled. Having someone to message at every step made the whole thing feel easy.",
+   "author": "Sample testimonial",
+   "location": "placeholder text, replace with a real one"
+  }
+ ]
+}
