@@ -18,7 +18,13 @@ app.use((err, _q, s, _n) => {
   s.status(err.status || 500).json({ error: err.status ? err.message : 'Server error' });
 });
 
-const uri = process.env.MONGODB_URI || process.env.MONGO_URI;
-mongoose.connect(uri);
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`API ready on :${PORT}`));
+try {
+  await mongoose.connect(process.env.MONGODB_URI);
+  console.log('Connected to MongoDB Atlas!');
+
+  const PORT = process.env.PORT || 5000;
+  app.listen(PORT, () => console.log(`API ready on :${PORT}`));
+} catch (err) {
+  console.error('MongoDB connection error:', err);
+  process.exit(1);
+}
